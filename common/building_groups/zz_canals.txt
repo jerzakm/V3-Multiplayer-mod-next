@@ -1,0 +1,8 @@
+bg_canals = {
+	parent_group = bg_infrastructure
+	lens = special
+	inheritable_construction = yes
+	economy_of_scale = yes
+	cash_reserves_max = 25000
+	urbanization = 10
+}
