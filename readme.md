@@ -12,7 +12,7 @@
   - state expected SoL from -33% to -40%
   - poor strata expected sol -3
   - middle strata expected sol -2
-  - construction sector throughput (economies of scale) -80%
+  - construction sector max throughput bonus (from economies of scale) -80%
   - max amount of barracks -75
   - starting wages -33%
 
@@ -22,3 +22,9 @@
   - era 3 - no change
   - era 4 - 18000 > 18500
   - era 5 - 24000 > 25000
+  - tech spread randomness 50% to 15% 
+  - tech cost ahead of time 25% to 33%
+
+**Pop growth**
+  - min_birthrate to 0.0017 from 0.0020
+  - max_birthrate to 0.0045 from 0.0050

@@ -1,0 +1,13 @@
+### Pop Growth Constants
+@min_birthrate = 0.0020 # 0.0015
+@max_birthrate = 0.0050 # 0.0040
+
+NEconomy = {
+	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 15 # 10
+	MIN_SPOT_PRESTIGE_AWARD = 5 # 3
+}
+
+NTechnology = {
+	TECH_SPREAD_RANDOM_RANGE = 0.15 # 0.5 How much can distribution of tech spread vary each week
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.33	# 0.25 For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+}
