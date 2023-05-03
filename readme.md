@@ -16,3 +16,9 @@
   - max amount of barracks -75
   - starting wages -33%
 
+**Technology**
+  - era 1 - 7500 > 5500
+  - era 2 - 10000 > 9000
+  - era 3 - no change
+  - era 4 - 18000 > 18500
+  - era 5 - 24000 > 25000
