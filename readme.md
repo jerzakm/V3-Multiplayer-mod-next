@@ -3,6 +3,8 @@
 
 ## Mods included:
 - Visual State Transfer Tool by kikker https://steamcommunity.com/sharedfiles/filedetails/?id=2928780837&searchtext=transfer
+- Guarantee Independence 
+- Only one naval invasion
 
 
 
