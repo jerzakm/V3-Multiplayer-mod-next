@@ -12,31 +12,31 @@ war_exhaustion_enemy_control = {
 			limit = {
 				scope:occupation_fraction < 0.1
 			}
-			value = 0.1
+			value = 0.05
 		}
 		else_if = {
 			limit = {
 				scope:occupation_fraction < 0.25
 			}
-			value = 0.5
+			value = 0.25
 		}
 		else_if = {
 			limit = {
 				scope:occupation_fraction < 0.5
 			}
-			value = 1.0
+			value = 0.8
 		}
 		else_if = {
 			limit = {
 				scope:occupation_fraction < 0.75
 			}
-			value = 2.0
+			value = 1.8
 		}
 		else_if = {
 			limit = {
 				scope:occupation_fraction < 0.9
 			}
-			value = 3.0
+			value = 2.5
 		}
 		else_if = {
 			limit = {
