@@ -30,3 +30,7 @@
 **Pop growth**
   - min_birthrate to 0.0017 from 0.0020
   - max_birthrate to 0.0045 from 0.0050
+
+**Suez & panama canals**
+  - a lot more profitable, Industralists approve etc (wip)
+
