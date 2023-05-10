@@ -682,6 +682,7 @@ trench_works = {
 	unlocking_technologies = {
 		general_staff
 		electric_telegraph
+		handcranked_machine_gun
 	}
 	
 	ai_weight = {
@@ -940,7 +941,9 @@ chemical_warfare = {
 	category = military
 	
 	unlocking_technologies = {	
-		automatic_machine_guns
+		
+		flamethrowers
+		concrete_fortifications
 	}
 	
 	ai_weight = {
@@ -950,7 +953,7 @@ chemical_warfare = {
 
 stormtroopers = {
 	# #todo#! Does nothing yet
-	era = era_5
+	era = era_4
 	texture = "gfx/interface/icons/invention_icons/stormtroopers.dds"
 	category = military
 	
@@ -1032,8 +1035,8 @@ flamethrowers = {
 	category = military
 	
 	unlocking_technologies = {	
-		trench_works
 		automatic_machine_guns
+		stormtroopers
 	}
 	modifier = {
 		unit_kill_rate_add = 0.05
