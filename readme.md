@@ -17,6 +17,7 @@
   - construction sector max throughput bonus (from economies of scale) -80%
   - max amount of barracks -75
   - starting wages -33%
+  - Colonial explotation revamp
 
 **Technology**
   - era 1 - 7500 > 5500
@@ -25,7 +26,8 @@
   - era 4 - 18000 > 18500
   - era 5 - 24000 > 25000
   - tech spread randomness 50% to 15% 
-  - tech cost ahead of time 25% to 33%
+  - tech cost ahead of time 25% to 28%  
+  - Military tech tree reordered
 
 **Pop growth**
   - min_birthrate to 0.0017 from 0.0020
@@ -34,3 +36,17 @@
 **Suez & panama canals**
   - a lot more profitable, Industralists approve etc (wip)
 
+
+**Military:**
+- lower attrition (min 0.05>0.01, max 0.15 > 0.05)
+- simultaneous battles (2)
+- trench infantry -5 def
+- infiltrators to tier 4, 25 offense
+- less random battles
+
+**Characters**
+- Max generals 30
+- increased commander pool
+
+**Pops:**
+- faster assimiltaion (perf?)
