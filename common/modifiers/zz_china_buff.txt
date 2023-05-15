@@ -9,9 +9,6 @@ china_buff_ai = {
 	building_group_bg_whaling_throughput_mult = 0.2
 	building_group_bg_oil_extraction_throughput_mult = 0.2
 	state_infrastructure_mult = 0.25
-	building_throughput_mult = 0.1
-	country_legitimacy_base_add = 10
-	state_radicals_from_sol_change_mult = -0.2
-	state_tax_capacity_add = 500
-	country_construction_add = 150
+	state_tax_capacity_add = 50
+	country_construction_add = 100
 }
