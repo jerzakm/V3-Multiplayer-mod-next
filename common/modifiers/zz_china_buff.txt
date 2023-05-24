@@ -10,5 +10,5 @@ china_buff_ai = {
 	building_group_bg_oil_extraction_throughput_mult = 0.2
 	state_infrastructure_mult = 0.25
 	state_tax_capacity_add = 50
-	country_construction_add = 100
+	country_construction_add = 50
 }
