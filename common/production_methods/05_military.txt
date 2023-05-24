@@ -471,7 +471,7 @@ pm_infiltrators = {
 			building_input_explosives_add = 1
 		}
 		throughput_scaled = {
-			unit_offense_add = 25
+			unit_offense_add = 15
 		}
 		unscaled = {
 			unit_provinces_captured_mult = 0.25

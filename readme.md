@@ -27,7 +27,7 @@
   - era 5 - 24000 > 25000
   - tech spread randomness 50% to 15% 
   - tech cost ahead of time 25% to 28%  
-  - Military tech tree reordered
+  - Military tech tree reordered (infiltrators > flamethorwers > chemical warfare)
 
 **Pop growth**
   - min_birthrate to 0.0017 from 0.0020
@@ -38,11 +38,12 @@
 
 
 **Military:**
-- lower attrition (min 0.05>0.01, max 0.15 > 0.05)
-- simultaneous battles (2)
+- lower attrition (min 0.05>0.02, max 0.15 > 0.1)
 - trench infantry -5 def
-- infiltrators to tier 4, 25 offense
-- less random battles
+- infiltrators to tier 4
+- defense in depth 30% > 25% def
+- concrete fortifications 40 > 35% def
+- less random battle sizes
 
 **Characters**
 - Max generals 30

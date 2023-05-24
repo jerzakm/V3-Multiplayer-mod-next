@@ -1,19 +1,14 @@
 ### Pop Growth Constants
 @min_birthrate = 0.002# 0.0015
 @max_birthrate = 0.005# 0.0040
-NEconomy = {
-	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 15	# 10
-	MIN_SPOT_PRESTIGE_AWARD = 5	# 3
-}
-
 NTechnology = {
 	TECH_SPREAD_RANDOM_RANGE = 0.15	# 0.5 How much can distribution of tech spread vary each week
-	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.33	# 0.25 For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.28	# 0.25 For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
 
 NMilitary = {
-	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.01	# 0.05 	# The minimum percentage of manpower a unit can lose each week due to attrition
-	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.05	# 0.15 	# The maximum percentage of manpower a unit can lose each week due to attrition
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.02	# 0.05 	# The minimum percentage of manpower a unit can lose each week due to attrition
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.1	# 0.15 	# The maximum percentage of manpower a unit can lose each week due to attrition
 	# BATTLE_BASE_MIN_PROVINCES_TAKEN = 2
 	# BATTLE_BASE_MAX_PROVINCES_TAKEN = 6
 	# MIN_MOBILIZATION_PER_DAY = 0.02	# minimum mobilization gained per day by each mobilizing battalion (the last unit to gain mobilization in a state might have to do with whatever is left)
@@ -23,9 +18,9 @@ NMilitary = {
 
 NWar = {
 	# NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5	# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces
-	MAX_SIMULTANEOUS_BATTLES = 2	# Allows to spawn up to MAX_SIMULTANEOUS_BATTLES as long as you have that many generals with advance orders.
-	LOCK_PROVINCE_CAPTURE_TO_SINGLE_STATE = yes	# If `yes`, provinces will only be captured on the same state as the battle province state.
-	PREFER_BATTLES_IN_UNIQUE_STATES = no	# If `yes`, will avoid creating ANY battles in the same state UNLESS there's no other option.
+	# MAX_SIMULTANEOUS_BATTLES = 1	# Allows to spawn up to MAX_SIMULTANEOUS_BATTLES as long as you have that many generals with advance orders.
+	# LOCK_PROVINCE_CAPTURE_TO_SINGLE_STATE = no	# If `yes`, provinces will only be captured on the same state as the battle province state.
+	# PREFER_BATTLES_IN_UNIQUE_STATES = no	# If `yes`, will avoid creating ANY battles in the same state UNLESS there's no other option.
 }
 
 NCharacters = {
