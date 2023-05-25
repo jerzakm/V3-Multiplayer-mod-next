@@ -1,0 +1,5 @@
+g_man_hedgefund = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_loan_interest_rate_add = -0.06
+	building_cash_reserves_mult = 0.2
+}
