@@ -1,4 +1,4 @@
-﻿STATE_DISTRICT_OF_COLUMBIA = {
+STATE_DISTRICT_OF_COLUMBIA = {
     id = 265
     subsistence_building = "building_subsistence_farms"
     provinces = { "x44578C" "x700080" }
@@ -34,7 +34,7 @@ STATE_LOUISIANA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        undiscovered_amount = 50
     }
     naval_exit_id = 3060
 }
@@ -186,7 +186,7 @@ STATE_COLORADO = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 25
     }
 }
 
@@ -250,7 +250,7 @@ STATE_NORTH_DAKOTA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 10
     }
 }
 
@@ -318,7 +318,7 @@ STATE_KANSAS = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 20
+        undiscovered_amount = 40
     }
 }
 
@@ -338,7 +338,7 @@ STATE_OKLAHOMA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 40
+        undiscovered_amount = 60
     }
 }
 
@@ -943,6 +943,7 @@ STATE_ONTARIO = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
     capped_resources = {
         bg_sulfur_mining = 48
+        bg_iron_mining = 15
         bg_logging = 23
     }
     resource = {
@@ -1200,7 +1201,7 @@ STATE_TEXAS = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 50
+        undiscovered_amount = 150
     }
     naval_exit_id = 3060
 }
@@ -1246,6 +1247,10 @@ STATE_ARIZONA = {
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 5
     }
+	resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_NEW_MEXICO = {
@@ -1262,6 +1267,10 @@ STATE_NEW_MEXICO = {
     capped_resources = {
         bg_coal_mining = 20
         bg_logging = 6
+    }
+	resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 25
     }
 }
 
@@ -1290,7 +1299,7 @@ STATE_CALIFORNIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 50
+        undiscovered_amount = 100
     }
     naval_exit_id = 3153
 }
