@@ -986,15 +986,15 @@ oil_extraction_1 = {
 }
 
 oil_extraction_2 = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
 	category = production
 	unlocking_technologies = {
 		oil_extraction_1
 	}
 	modifier = {
-		building_output_oil_mult = 0.1
-		building_group_bg_oil_extraction_throughput_mult = 0.1
+		building_output_oil_mult = 0.25
+		building_group_bg_oil_extraction_throughput_mult = 0.25
 	}
 	ai_weight = {
 		value = 1
@@ -1011,15 +1011,15 @@ oil_extraction_2 = {
 }
 
 oil_extraction_3 = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
 	category = production
 	unlocking_technologies = {
 		oil_extraction_2
 	}
 	modifier = {
-		building_output_oil_mult = 0.15
-		building_group_bg_oil_extraction_throughput_mult = 0.15
+		building_output_oil_mult = 0.25
+		building_group_bg_oil_extraction_throughput_mult = 0.25
 	}
 	ai_weight = {
 		value = 1
@@ -1043,8 +1043,8 @@ oil_extraction_4 = {
 		oil_extraction_3
 	}
 	modifier = {
-		building_output_oil_mult = 0.15
-		building_group_bg_oil_extraction_throughput_mult = 0.2
+		building_output_oil_mult = 0.25
+		building_group_bg_oil_extraction_throughput_mult = 0.25
 	}
 	ai_weight = {
 		value = 1
@@ -1068,33 +1068,8 @@ oil_extraction_5 = {
 		oil_extraction_4
 	}
 	modifier = {
-		building_output_oil_mult = 0.2
+		building_output_oil_mult = 0.25
 		building_group_bg_oil_extraction_throughput_mult = 0.25
-	}
-	ai_weight = {
-		value = 1
-		if = {
-			limit = {
-				OR = {
-					has_strategy = ai_strategy_industrial_expansion
-					has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}
-	}
-}
-
-oil_extraction_6 = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
-	category = production
-	unlocking_technologies = {
-		oil_extraction_5
-	}
-	modifier = {
-		building_output_oil_mult = 0.2
-		building_group_bg_oil_extraction_throughput_mult = 0.3
 	}
 	ai_weight = {
 		value = 1
