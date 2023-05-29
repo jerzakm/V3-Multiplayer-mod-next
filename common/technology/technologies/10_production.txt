@@ -644,6 +644,12 @@ mechanized_farming = {
 	unlocking_technologies = {
 		threshing_machine
 	}
+
+	modifier = {
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
+	}
+	
 	ai_weight = {
 		value = 1
 		if = {
@@ -694,6 +700,10 @@ conveyors = {
 		vulcanization
 		shift_work
 		electrical_generation
+	}
+	modifier = {
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
 	}
 	ai_weight = {
 		value = 1
@@ -751,6 +761,10 @@ combustion_engine = {
 	category = production
 	unlocking_technologies = {
 		rotary_valve_engine
+	}
+	modifier = {
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
 	}
 	ai_weight = {
 		value = 1
@@ -925,6 +939,10 @@ oil_turbine = {
 	category = production
 	unlocking_technologies = {
 		steam_turbine
+	}
+	modifier = {
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
 	}
 	ai_weight = {
 		value = 1

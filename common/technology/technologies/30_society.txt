@@ -1072,6 +1072,8 @@ central_planning = {
 	
 	modifier = {
 		state_tax_capacity_add = 25
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -1314,7 +1316,10 @@ macroeconomics = {
 	modifier = {
 		country_trade_route_quantity_mult = 0.5
 		country_trade_route_competitiveness_mult = 0.25
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
 	}
+	
 	
 	unlocking_technologies = {
 		international_exchange_standards
@@ -1370,7 +1375,9 @@ paved_roads = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		market_land_trade_capacity_add = 10
-	}
+		building_output_oil_mult = 0.02
+		building_group_bg_oil_extraction_throughput_mult = 0.02
+	}	
 	
 	unlocking_technologies = {	
 		elevator
