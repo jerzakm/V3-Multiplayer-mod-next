@@ -646,7 +646,7 @@ defense_in_depth = {
 	modifier = {
 		unit_morale_loss_mult = -0.05
 		# defensive bonus, either to the army or ideally to fortifications
-		unit_army_defense_mult = 0.25
+		unit_army_defense_mult = 0.3
 	}
 	unlocking_technologies = {
 		trench_works
