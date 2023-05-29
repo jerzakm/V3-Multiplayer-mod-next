@@ -3,7 +3,7 @@
 	texture = "gfx/interface/icons/building_icons/suez_canal.dds"
 	canal = canal_suez
 	expandable = yes
-	downsizeable = no
+	downsizeable = yes
 	unique = yes
 	required_construction = construction_cost_canal
 	
@@ -28,7 +28,7 @@ building_panama_canal = {
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
 	canal = canal_panama
 	expandable = yes
-	downsizeable = no
+	downsizeable = yes
 	unique = yes
 	required_construction = construction_cost_canal
 	

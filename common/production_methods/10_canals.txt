@@ -4,13 +4,14 @@ pm_canal = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_minting_add = 5000
-			interest_group_ig_industrialists_approval_add = 0.1
+			interest_group_ig_industrialists_approval_add = 0.2
 			state_tax_capacity_add = 5
+			country_convoys_capacity_add = 1000
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
+			state_infrastructure_add = 10
 			state_migration_pull_mult = 0.05
 		}
 	}
