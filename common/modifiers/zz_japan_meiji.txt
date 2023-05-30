@@ -1,0 +1,17 @@
+western_military_consultant = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_spread_mult = 1
+	country_military_tech_cost_mult = -0.1
+}
+
+japan_production_tech_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_production_tech_spread_mult = 1
+	country_production_tech_cost_mult = -0.1
+}
+
+japan_society_tech_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_society_tech_spread_mult = 1
+	country_society_tech_cost_mult = -0.1
+}

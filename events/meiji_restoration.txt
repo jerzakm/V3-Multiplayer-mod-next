@@ -613,7 +613,7 @@ meiji.4 = {
 		}
 		add_modifier = {
 			name = western_military_consultant
-			months = short_modifier_time
+			months = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -754,7 +754,7 @@ meiji.5 = {
 		}
 		add_modifier = {
 			name = japan_society_tech_modifier
-			months = short_modifier_time
+			months = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -873,7 +873,7 @@ meiji.6 = {
 		}
 		add_modifier = {
 			name = japan_production_tech_modifier
-			months = short_modifier_time
+			months = normal_modifier_time
 		}
 		if = {
 			limit = {

@@ -112,9 +112,9 @@ je_meiji_main = {
 	on_monthly_pulse = {
 		random_events = {
 			100 = 0
-			10 = meiji.4
-			10 = meiji.5
-			10 = meiji.6
+			30 = meiji.4
+			30 = meiji.5
+			30 = meiji.6
 		}
 	}
 
