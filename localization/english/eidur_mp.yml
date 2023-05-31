@@ -1,6 +1,7 @@
 ﻿l_english:
- eidur_harsh_colonial_1: "Colonial Exploitation 1"
- eidur_harsh_colonial_2: "Colonial Exploitation 2"
- eidur_harsh_colonial_3: "Colonial Exploitation 3"
- eidur_harsh_colonial_4: "Colonial Exploitation 4"
- eidur_harsh_colonial_5: "Colonial Exploitation 5"
+  # Coronation of Queen Victoria
+ eidur_harsh_colonial_1:0 "Colonial Exploitation I"
+ eidur_harsh_colonial_2:0 "Colonial Exploitation II"
+ eidur_harsh_colonial_3:0 "Colonial Exploitation III"
+ eidur_harsh_colonial_4:0 "Colonial Exploitation IV"
+ eidur_harsh_colonial_5:0 "Colonial Exploitation V"
