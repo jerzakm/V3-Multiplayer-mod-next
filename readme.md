@@ -106,3 +106,4 @@ Upgradeable. Balanced for having up to lvl 10 canal (will be a game rule). Value
 **Japan Meiji Restoration Events**
 In vanilla, Japan gets events for military, production and society where some of the options give increase to tech spread for 2.5 years. 
 - duration changed to 5 years and added a 10% tech cost reduction.
+- additional tech boosts also happen when Meiji Restoration is complete

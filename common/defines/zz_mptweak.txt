@@ -24,7 +24,7 @@ NWar = {
 }
 
 NCharacters = {
-	MAX_NUM_CHARACTERS_PER_TYPE = 30	# default: 20
+	# MAX_NUM_CHARACTERS_PER_TYPE = 30	# default: 20
 	# RECRUIT_COMMANDER_NUM_OPTIONS = 5	# default: 2
 	RECRUIT_COMMANDER_POOL_SIZE = 20	# default: 3
 	# VOIDED_CHARACTER_DEFAULT_DURATION = 3	# default: 12
