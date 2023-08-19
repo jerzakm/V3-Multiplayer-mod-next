@@ -95,10 +95,6 @@ transfer_money.1 = {
 		scope:target_country = {
 			add_treasury = 500000
 		}
-		change_relations = {
-			country = scope:target_country
-			value = 5
-		}
 		hidden_effect = {
 			remove_modifier = transferring_money
 		}
@@ -111,10 +107,6 @@ transfer_money.1 = {
 		add_treasury = -750000
 		scope:target_country = {
 			add_treasury = 750000
-		}
-		change_relations = {
-			country = scope:target_country
-			value = 7
 		}
 		hidden_effect = {
 			remove_modifier = transferring_money
@@ -129,10 +121,6 @@ transfer_money.1 = {
 		scope:target_country = {
 			add_treasury = 1000000
 		}
-		change_relations = {
-			country = scope:target_country
-			value = 10
-		}
 		hidden_effect = {
 			remove_modifier = transferring_money
 		}
@@ -145,10 +133,6 @@ transfer_money.1 = {
 		add_treasury = -1500000
 		scope:target_country = {
 			add_treasury = 1500000
-		}
-		change_relations = {
-			country = scope:target_country
-			value = 15
 		}
 		hidden_effect = {
 			remove_modifier = transferring_money
@@ -163,10 +147,6 @@ transfer_money.1 = {
 		scope:target_country = {
 			add_treasury = 2500000
 		}
-		change_relations = {
-			country = scope:target_country
-			value = 25
-		}
 		hidden_effect = {
 			remove_modifier = transferring_money
 		}
@@ -179,10 +159,6 @@ transfer_money.1 = {
 		add_treasury = -5000000
 		scope:target_country = {
 			add_treasury = 5000000
-		}
-		change_relations = {
-			country = scope:target_country
-			value = 50
 		}
 		hidden_effect = {
 			remove_modifier = transferring_money
@@ -197,10 +173,6 @@ transfer_money.1 = {
 		scope:target_country = {
 			add_treasury = 7500000
 		}
-		change_relations = {
-			country = scope:target_country
-			value = 75
-		}
 		hidden_effect = {
 			remove_modifier = transferring_money
 		}
@@ -213,10 +185,6 @@ transfer_money.1 = {
 		add_treasury = -10000000
 		scope:target_country = {
 			add_treasury = 10000000
-		}
-		change_relations = {
-			country = scope:target_country
-			value = 100
 		}
 		hidden_effect = {
 			remove_modifier = transferring_money
